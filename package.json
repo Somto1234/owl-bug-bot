@@ -1,0 +1,43 @@
+{
+  "name": "owl-bug-whatsapp-pairing",
+  "version": "1.0.0",
+  "description": "🦉 OWL BUG - Production WhatsApp Pairing Website with Baileys Integration",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "pairing",
+    "bot",
+    "owl-bug"
+  ],
+  "author": "Somto1234",
+  "license": "Unlicense",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.11.0",
+    "pino": "^8.17.2",
+    "pino-http": "^8.6.1",
+    "node-cache": "^5.1.2",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.6",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
